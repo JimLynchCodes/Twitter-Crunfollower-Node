@@ -1,0 +1,24 @@
+{
+  "name": "twitter-crunfollower-node",
+  "version": "1.0.0",
+  "description": "A node script meant to run as a cron job that unfollows someone you're following who isn't following you back.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JimLynchCodes/Twitter-Crunfollower-Node.git"
+  },
+  "author": "Jim",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/JimLynchCodes/Twitter-Crunfollower-Node/issues"
+  },
+  "homepage": "https://github.com/JimLynchCodes/Twitter-Crunfollower-Node#readme",
+  "dependencies": {
+    "twit": "^2.2.11",
+    "winston": "^3.2.1"
+  }
+}
