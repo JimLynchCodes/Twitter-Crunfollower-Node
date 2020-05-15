@@ -18,6 +18,7 @@
   },
   "homepage": "https://github.com/JimLynchCodes/Twitter-Crunfollower-Node#readme",
   "dependencies": {
+    "os-utils": "0.0.14",
     "twit": "^2.2.11",
     "winston": "^3.2.1"
   }
