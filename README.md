@@ -92,7 +92,7 @@ This should run the script just like `npm start` (after all, it is just calling 
 
 Putting it all together, here's how you can schedule the bash script as a cron job:
 ```
-~/Git-Projects/Twitter-Unfollower/run-twitter-engager.sh >> ~/Git-Projects/Twitter-Unfollower/logs/cron-logs_`date +\%Y-\%m-\%d`.log 2>&1
+*/42 * * * * ~/Git-Projects/Twitter-Unfollower/run-unfollower.sh >> ~/Git-Projects/Twitter-Unfollower/logs/cron-logs_`date +\%Y-\%m-\%d`.log 2>&1
 ```
 
 
