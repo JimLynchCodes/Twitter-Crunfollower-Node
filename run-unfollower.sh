@@ -13,21 +13,5 @@ cd ~/Git-Projects/Twitter-Cronfollower-Node/
 # Use project's preferred node version from .nvmrc file.
 nvm use
 
-# Allows you to run this bash script with arbitrary arguments. It then calls 
-# "npm start" with those arguments. If no arguments passed in it just runs "npm start".
-# npm_parameters=""
-
-npm_parameters=""
-
-if [ "$#" -eq "0" ]; then
-   npm start
-   exit
-fi
-
-for i in $@
-   # printf "%d" $i
-do 
-  npm_parameters="$npm_parameters $i"
-done
-
-eval npm start -- $npm_parameters 
+# Run the unfollower script!
+npm start
